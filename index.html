@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title> Photo Gallery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Grid Gallery</h1>
+        <div class="row">
+            <img src="1.jpg" class="grid">
+            <img src="2.jpg" class="grid">
+            <img src="3.jpg" class="grid">
+            <img scr="4.jpg" class="grid">
+        </div>
+        <div class="row">
+            <img src="5.jpg" class="grid">
+            <img src="6.jpg" class="grid">
+            <img src="7.jpg" class="grid">
+            <img src="8.jpg" class="grid">
+
+        </div>
+        <section class="sliding">
+            <h1>Sliding Gallery </h1>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+                            <img src="9.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p> Alia Bhatt</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="10.jpg" class="img-responsive">
+                            <div class="carousel-content">
+                                <p> Avneet Kaur</p>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="11.jpg" class="image-responsive">
+                            <div class="carousel-content">
+                                <p> Anushka Sen</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+                <a class="right carousel controle" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                     </a>
+                    <a class="left carousel controle" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
